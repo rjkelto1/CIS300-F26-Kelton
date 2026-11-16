@@ -12,10 +12,10 @@ body {
 }
 #wrapper {
     background-color: var(--primary);
-    background-image: linear-gradient(to bottom, var(--background), var(--primary));
+    background-image: var(--background);
 }
 header {
-    background-color: var(--primary);
+    background-color: var(--accent);
     color: var(--background);
     display: grid;
     grid-template-columns: 1fr auto 1fr;
